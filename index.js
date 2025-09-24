@@ -1,5 +1,5 @@
 const express = require('express');
 const app = express();
-app.get('/', (req, res) => res.send('hola mundo'));
+app.get('/', (req, res) => res.send('hola mundito'));
 app.listen(3000);
 
